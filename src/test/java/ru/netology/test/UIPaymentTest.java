@@ -561,7 +561,7 @@ public class UIPaymentTest {
         );
         TourPage page = open("http://localhost:8080", TourPage.class);
         page.getPayment(cardInfo);
-        page.isCodeInvalid();
+        page.isSuccessful();
     }
 
     @Test

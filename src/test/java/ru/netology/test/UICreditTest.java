@@ -560,7 +560,7 @@ public class UICreditTest {
         );
         TourPage page = open("http://localhost:8080", TourPage.class);
         page.getCredit(cardInfo);
-        page.isCodeInvalid();
+        page.isSuccessful();
     }
 
     @Test
